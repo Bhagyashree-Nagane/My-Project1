@@ -1,0 +1,104 @@
+Test Plan for Open Cart Application
+1. Introduction
+1.1 Purpose
+The purpose of this test plan is to outline the testing strategy for the Open Cart application modules: Registration, Login, Order Page, and Payment Method. The goal is to ensure that each module functions as expected and meets the specified requirements.
+
+1.2 Scope
+This test plan covers functional, performance, security, and usability testing of the Registration, Login, Order Page, and Payment Method modules. It excludes testing of third-party integrations and non-functional aspects outside the defined scope.
+
+1.3 Objectives
+
+Verify that all modules perform their intended functions.
+Identify and fix defects.
+Ensure the application is user-friendly and secure.
+1.4 References
+
+Functional Requirements Document
+Design Specifications
+User Manuals
+2. Test Items
+2.1 Features to be Tested
+
+Registration: User registration process, form validation.
+Login: User authentication, error handling for incorrect credentials.
+Order Page: Adding items to the order, removing items, modifying order.
+Payment Method: Payment processing, handling payment failures, success confirmation.
+2.2 Features Not to be Tested
+
+Third-party integrations.
+Non-functional UI elements.
+3. Testing Strategy
+3.1 Test Levels
+
+Unit Testing: Individual components within each module.
+Integration Testing: Interaction between modules.
+System Testing: Complete end-to-end scenarios.
+Acceptance Testing: User acceptance tests.
+3.2 Types of Testing
+
+Functional Testing: Verify module functionalities.
+Performance Testing: Check response times and load handling.
+Security Testing: Identify vulnerabilities.
+Usability Testing: Assess ease of use and user experience.
+3.3 Test Design
+
+Functional test cases for each module will be designed using equivalence partitioning and boundary value analysis techniques.
+Performance test cases will include load and stress tests.
+Security test cases will focus on input validation and access control.
+4. Environment Setup
+4.1 Hardware
+
+Servers: 1 Web Server, 1 Database Server.
+Client Machines: Minimum specifications to run the latest browsers.
+4.2 Software
+
+Operating Systems: Windows
+Browsers: Chrome, Firefox, Safari, Edge.
+Tools: JIRA for defect tracking, Selenium for automated testing.
+4.3 Test Data
+
+Test data will be generated to cover various scenarios including edge cases for registration, login, orders, and payments.
+5. Test Schedule
+
+
+
+6. Test Deliverables
+
+6.1 Deliverables
+
+Test Plan Document
+Test Cases
+Test Scripts
+Defect Reports
+Test Summary Report
+7. Roles and Responsibilities
+7.1 Team Members
+
+
+7.2 Responsibilities
+
+Test Manager: Oversee the testing process, coordinate activities.
+Test Engineers: Develop and execute test cases, report defects.
+8. Defect Management
+8.1 Defect Reporting
+
+Defects will be reported using JIRA, including details like steps to reproduce, severity, and screenshots.
+8.2 Defect Tracking
+
+Defects will be tracked in JIRA, with regular updates during daily stand-up meetings.
+9. Risk Management
+9.1 Risks
+
+Delays in test data preparation.
+Unavailability of test environment.
+9.2 Mitigation Strategies
+
+Prepare test data in advance.
+Ensure backup environments are available.
+10. Approval and Sign-off
+10.1 Approval Criteria
+
+All test cases executed.
+All critical defects resolved.
+10.2 Sign-off
+
